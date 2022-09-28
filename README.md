@@ -1,5 +1,33 @@
-# FCC Test Suite Template
+# Landing Product Page
+This repo created to contain files which created for code review project.
+## Built With
+- html
+- css
+## Live Demo (if available)
+Live Demo Link
+## Getting Started
+Simply you can open index.html file with any browser and, you will see my design of product landing page.
+for opennig index.html go to code_review_project_1 directory, find index.html, right click on it, click on open with and, click on any browser which is available on your pc/labtop. 
+### Prerequisites
+### Browser
+## Author
+### 🧑🏻 Author1
+- GitHub: [@zia123456](https://github.com/Zia123456)
+- Twitter: @zia_bakhteyari
+- LinkedIn: Zia bakhteyari
+- 
+### 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
+## Show your support
+Give a ⭐️ if you like this project!
 
-**Fork** this project (do not open a Pull Request) to start working on any of freeCodeCamp's responsive web design course projects. Select the project from the dropdown menu and run the tests to see which requirements your project is still missing.
+## Acknowledgments
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+## 📝 License
 
-You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
+This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
+
+NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
