@@ -1,85 +1,139 @@
-*{
-    margin: 0px;
-    padding: 0;
+body {
+  margin: 0 auto;
+  background-color: rgb(208, 214, 220);
 }
 
-.flex-container {
+#header {
   display: flex;
-  justify-content: center;
-  margin-top: 30px;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 50px;
 }
 
-#nav-bar ul {
+#top-nav {
   display: flex;
-  list-style: none;
   position: fixed;
-  
-}
-
-#nav-bar ul li a {
-  text-decoration: none;
-  
+  align-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: blueviolet;
 }
 
 #logo {
   margin-left: 100px;
+  align-self: center;
 }
 
-#main-header {
-  display: flex;
-  position: fixed;
- 
+#logo-img {
+  width: 40px;
+  height: 30px;
 }
 
 #left-nav-bar {
-  float: right;
-  margin-left: 700px;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-left: 60%;
 }
 
-.nav-link {
-  padding: 40px;
+.nav-bar {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#nav-element {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 60px;
 }
 
 #div1 {
+  width: 650px;
   text-align: center;
 }
 
-#div2 {
-  text-align: center;
+#email {
+  width: 300px;
+  align-self: center;
 }
 
-body {
-  background-color: rgb(208, 214, 220);
+#submit {
+  width: 120px;
+  align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.prices-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
 }
 
 .prices {
   height: 200px;
   width: 200px;
-  background-color: rgb(170, 166, 158);
-  margin-right: 20px;
+  background-color: rgb(197, 153, 67);
   border: 2px solid black;
   text-align: center;
 }
-.prices-head{
-    height: 20%;
-    background-color: bisque;
-    margin-bottom: 10px;
 
+.prices-head {
+  height: 20px;
+  background-color: bisque;
 }
-.prices-headings{
-    padding-top: 10px;
-    vertical-align:middle;
+
+.prices-headings {
+  vertical-align: middle;
 }
-.prices-paragraph{
-    padding-top: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 400;
+
+.prices-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
 }
-.cont{
-    margin-top: 60px;
+
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: blueviolet;
+  justify-content: center;
+  margin-top: 20px;
 }
-@media only screen and (max-width:600px){
-    div.flex-container{
-        display:none
-    }
+
+@media only screen and (max-width: 600px) {
+  div.container {
+    display: none;
+  }
 }
